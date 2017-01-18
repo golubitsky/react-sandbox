@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Header'
-import ControlPanel from './ControlPanel'
 import Footer from './Footer'
+
+import ChangingColorSquare from './../containers/ChangingColorSquare'
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header />
-        <ControlPanel />
+        <ChangingColorSquare />
         <Footer />
       </div>
     );
